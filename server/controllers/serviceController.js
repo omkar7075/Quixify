@@ -1,5 +1,6 @@
 const ServiceProvider = require('../models/ServiceProvider');
 const User = require('../models/User'); // Ensure User model is imported
+const Provider = require("../models/Provider"); // Make sure you have a Provider model
 
 // Get nearby service providers based on location
 const getNearbyProviders = async (req, res) => {
@@ -165,6 +166,25 @@ const respondToNotification = async (req, res) => {
     }
 };
 
+
+// get provide id
+const getProviderById = async (req, res) => {
+    try {
+      const provider = await Provider.findOne({ user: req.user.id });
+  
+      if (!provider) {
+        return res.status(404).json({ success: false, message: "Provider ID not found" });
+      }
+  
+      res.status(200).json({ success: true, providerId: provider._id });
+    } catch (error) {
+      console.error("Error fetching provider:", error);
+      res.status(500).json({ success: false, message: "Server error" });
+    }
+  };
+
+  
+
 module.exports = {
     getNearbyProviders,
     getServiceDemandHeatmap,
@@ -174,5 +194,6 @@ module.exports = {
     updateServiceLog,
     updateAcceptanceStatus,
     submitComplaint,
-    respondToNotification
+    respondToNotification,
+    getProviderById
 };
