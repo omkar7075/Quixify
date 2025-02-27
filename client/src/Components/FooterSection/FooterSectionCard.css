@@ -1,0 +1,77 @@
+.Footer_Card-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 40px 0px;
+}
+.Footer-Download{
+    display: block;
+    text-align: left;
+}
+.Footer-Download h3{
+    margin: 10px 0px;
+}
+
+.Footer-Download p{
+    margin: 10px 0px;
+}
+.PlayStore{
+    margin-right: 10px
+}
+.AppStore{
+    margin-left: 10px;
+}
+.Footer-Logo{
+    text-align: center;
+  
+}
+
+.Footer-Logo img{
+    width: 150px;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+.Footer-Logo p{
+    margin: 10px 0px;
+}
+
+
+.Link-Contaier{
+    display: flex;
+    
+}
+.Useful-Link {
+    margin-right: 10px;
+}
+.Useful-Link a{
+    display: block;
+    margin: 8px;
+}
+.Follow-Link{
+    margin-left: 10px;
+}
+.Follow-Link a{
+    display: block;
+    margin: 8px;
+}
+
+.Footer-Copy{
+    color: white;
+}
+.Footer-Copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+hr{
+    width: 70%;
+}
+.Footer-Copy{
+    text-align: center;
+    margin-top: 5px;
+}

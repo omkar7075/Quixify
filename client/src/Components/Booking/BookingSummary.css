@@ -1,0 +1,175 @@
+.booking-summary {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.name-rating{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.name-rating h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.name-rating p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.rating .star {
+  color: #00b0ff;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.profile-details{
+    font-size: 1.2rem;
+}
+.profile-details p{
+    margin-top: 15px;
+}
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 5%;
+}
+
+.info-box1{
+    height: 60%;
+  flex: 1;
+  padding: 40px 10px;
+  margin: 0 10px;
+  background-color: #E8F8F1;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box2{
+    height: 90%;
+  flex: 1;
+  padding: 40px 10px;
+  border: 2px solid black;
+  margin: 0 10px;
+  background-color: #FFF0E9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.summary-box {
+     flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.info-box1 h3, .info-box2 h3,.summary-box h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.info-box p, .summary-box p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.service-summary, .extra-summary {
+  margin-bottom: 10px;
+}
+
+.service-summary p, .extra-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.service-summary h4,.extra-summary h4{
+    margin: 0px 20%;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.grand-total {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+.grand-total p{
+display: flex;
+  justify-content: space-between;
+}
+.booking-info {
+    margin-top: -7%;
+  margin-bottom: 20px;
+}
+
+.booking-info h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.booking-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.conformation-prev-button, .conformation-submit-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.conformation-prev-button {
+  background-color: #ddd;
+  color: #333;
+  margin-right: 20px;
+}
+
+.conformation-submit-button {
+  background-color: #00b0ff;
+  color: #fff;
+}
+
+.conformation-submit-button:hover {
+  background-color: #0099e6;
+}

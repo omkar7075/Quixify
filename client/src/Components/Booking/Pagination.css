@@ -1,0 +1,48 @@
+.pagination-container {
+   display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #bfcdf8, #ffffff); /* Light purple gradient */
+  padding: 40px;
+  text-align: left;
+  margin-top: 6.5%;
+  padding-left: 5%;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+}
+
+.step-number {
+  /* display: inline-flex;
+  justify-content: center;
+  align-items: center; */
+  /* width: 30px;
+  height: 30px; */
+  /* border-radius: 50%; */
+  background-color: #fff;
+  border: 2px solid #000;
+  /* margin-right: 5px; */
+  font-weight: bold;
+}
+
+.step-label {
+  margin-right: 5px;
+  font-size: 1rem;
+  color: #000;
+}
+
+.arrow-book {
+  font-size: 1.5rem;
+  margin: 0 5px;
+  color: #000;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed .step-number {
+  background-color: #00b0ff;
+  color: #fff;
+  border-color: #00b0ff;
+}

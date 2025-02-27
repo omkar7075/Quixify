@@ -1,0 +1,126 @@
+.customOrange {
+  color: #ff6b2c;
+}
+.customGradient {
+  background: linear-gradient(180deg, #fcf7f1 0%, #daf6fb 50%, #96dce6 100%);
+}
+
+.customBlueHover {
+  /* background-color: #11aaff; */
+  transition: all 0.3s ease;
+}
+
+.customBlueHover:hover {
+  background-color: #11d8f6;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.navbarShadow {
+  box-shadow: -4.96px 2.48px 3.1px 0px rgba(0, 0, 0, 0.24);
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.active {
+  color: #3d5af1;
+  border-bottom: 3px solid #11d8f6;
+  transition: border-bottom 2s ease-in;
+}
+.loginSigninGradient{
+  background: linear-gradient(250deg, #EDECFF, #7E7BFF);
+}
+.loginSigninBackground{
+  background: linear-gradient(321deg,
+      rgba(0, 0, 0, 0.04) 5.98%,
+      rgba(0, 0, 0, 0) 66.28%),
+    rgba(255, 255, 255, 0.25);
+}
+.step-number {
+  /* display: inline-flex;
+  justify-content: center;
+  align-items: center; */
+  /* width: 30px;
+  height: 30px; */
+  /* border-radius: 50%; */
+  background-color: #fff;
+  border: 2px solid #000;
+  /* margin-right: 5px; */
+  font-weight: bold;
+}
+.completed .step-number {
+  background-color: #00b0ff;
+  color: #fff;
+  border-color: #00b0ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+.buttonGradient {
+  background: linear-gradient(90deg, #22d1ee, #3d5af1);
+}
+.loginSigninButtonGradient{
+  background: linear-gradient(91deg,
+      #628eff 9.91%,
+      #8740cd 53.29%,
+      #580475 91.56%);
+}
+.textShadow {
+  text-shadow: 1.731px 6.058px 3.462px rgba(0, 0, 0, 0.5);
+}
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #dbdcef;
+   border-right-color: #96dce6;
+   animation: spinner-d3wgkg 0.8s infinite linear;
+}
+
+@keyframes spinner-d3wgkg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+.AboutContainerGradient {
+  /* background: linear-gradient(to right, #e0e7ff, #ffffff);  */
+  background: linear-gradient(
+    to right,
+    #ced8fc,
+    #ffffff
+  ); /* Light purple gradient */
+}
+.contactGradient {
+  background: linear-gradient(to right, #ced8fc, #ffffff);
+}
+.completed .step-number {
+  background-color: #00b0ff;
+  color: #fff;
+  border-color: #00b0ff;
+}
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background:linear-gradient(#FFFFFF,#96dce6);
+  
+}
+
+body{
+  overflow-x: hidden;
+} */

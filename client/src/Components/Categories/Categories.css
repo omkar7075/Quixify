@@ -1,0 +1,26 @@
+.categories{
+    margin: 3px 50px;
+}
+.title{
+    font-size: 40px;
+    text-decoration: underline #11d8f6 ;
+}
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore-container{
+    display: flex;
+    width: 100vw;
+    padding-right: 180px;
+    align-items: center;
+    justify-content:end;
+    cursor: pointer;
+}
+.arrow{
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}

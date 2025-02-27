@@ -1,0 +1,87 @@
+/* .service-card {
+  background-color: #f4f4f4;
+  border-radius: 20.51px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+.service-provider-name-rating{
+    width: 290px;
+    height: 30px;
+    
+
+}
+
+.provider-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service-info {
+  padding: 0 30px 30px
+}
+
+.service-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.service-rating {
+  color: #ffd700; 
+}
+
+.book-price-container{
+    display: flex;
+}
+
+.service-price {
+  color: #333;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.book-now-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+} */
+
+
+
+/* <div className="service-card">
+      <img src={image} alt={service} className="service-image" />
+      <div className="service-info">
+        <ul className='service-provider-name-rating'>
+            <li>
+                <div className='provider-detail'>
+                    <img src={image} alt={service} className='provider-img'/>
+                    <span class="provider-name"> ABCD </span>
+                </div>
+            </li>
+            <li>
+                <div className="service-rating">{rating}</div> 
+            </li>
+           
+        </ul>
+        <h3 className="service-title">{service}</h3>
+        <div className='book-price-container'>
+            <button className="book-now-btn">Book Now</button>
+            <p className="service-price">Starting at ₹{price}</p>
+            
+        </div>
+      </div>
+    </div> */

@@ -1,0 +1,99 @@
+.container-address {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.address-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: -8.96px 5.48px 3.1px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 39.221px;
+  background-color: var(--Primary, #fff);
+  width: 750px;
+  height: 450px;
+}
+.address-title{
+  color: #000;
+    text-align: center;
+    text-shadow: 1.731px 6.058px 3.462px rgba(0, 0, 0, 0.5);
+    align-self: center;
+    font: 700 38px Cabin, sans-serif;
+}
+.city-area-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 40px auto;
+
+}
+.select-city,
+.select-landmark,
+.full-address {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 25%;
+}
+
+.select-city option,
+.select-landmark option {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.select-city select,
+.select-landmark select{
+  height: 40px;
+  width: 80%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+/* 
+.select-city select option,
+.select-landmark select option{
+  color: red;
+} */
+
+.full-address textarea {
+  padding: 10px;
+  height: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 90%;
+  box-sizing: border-box;
+   resize: none;
+   /* transition: width 0.4s ease-in-out; */
+}
+
+/* .full-address textarea:focus {
+  width: 90%;
+} */
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back,.next {
+  padding: 10px 15%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 35%;
+  color: white;
+  margin: auto;
+  background: linear-gradient(90deg,#22D1EE ,#3D5AF1);
+  text-decoration: none;
+}

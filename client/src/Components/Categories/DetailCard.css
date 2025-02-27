@@ -1,0 +1,50 @@
+.detail-container{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+    width: 871.63px;
+    height: 376.52px;
+    margin-left: 120px;
+    /* background:linear-gradient(205deg,#F9DB9B ,#FFFFFF); */
+    
+    border-radius: 42px;
+
+}
+
+.card-detail{
+    display: flex;
+    perspective: 10px;
+}
+.detail-image{
+    width: 520px;
+    height: 340px;
+    transform: translateX(47px) scale(0.9);
+    border-radius: 21px;
+}
+
+.info{
+    height: 315px;
+    width: 415px;
+    background-color: #FFFFFF;
+    border-radius: 17px;
+    transform: translateX(-52px) scale(0.9);
+    margin-top: 15px;
+}
+
+.info h2{
+    margin: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.info ul{
+    margin: 30px;
+}
+.info li{
+    margin: 30px;
+    list-style:disc;
+    font-size: 20px;
+    font-weight: bold;
+}

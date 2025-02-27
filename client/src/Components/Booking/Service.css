@@ -1,0 +1,117 @@
+.service-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-profile {
+    display: flex;
+    align-items: center;
+}
+
+.service-profile-pic {
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.service-profile-details {
+    
+    flex: 1;
+}
+
+.service-name-rating h2 {
+    font-size: 1.5rem;
+}
+.service-name-rating{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-profile-details p{
+    text-align: justify;
+    margin: 20px 20px 20px 0;
+}
+.service-rating{
+    font-size: 1.2em;
+    color: #ff9900;
+}
+
+.services, .service-benefits{
+    /* text-align: center; */
+    margin-top: 20px;
+}
+.total h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.total h3 span{
+    font-size: 1.2em;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.service-item label {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.service-item span {
+    margin-left: 10px;
+}
+
+.remove {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.service-benefits ul li{
+    list-style-type: circle;
+    margin: 20px;
+}
+
+.service-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+.service-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.service-previous-btn, .service-next-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.service-previous-btn {
+    margin-right: 20px;
+    background-color: #f0f0f0;
+}
+
+.service-next-btn {
+    background-color: #00aaff;
+    color: white;
+}
+
+.service-previous-btn:hover, .service-next-btn:hover {
+  opacity: 0.9;
+}

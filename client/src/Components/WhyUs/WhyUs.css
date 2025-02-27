@@ -1,0 +1,19 @@
+.whyus-container{
+    background-color: #D4D3FF;
+    text-align: center;
+    padding: 4vw 0px;
+}
+.whyus-title h1{
+    font-size: 3vw;
+}
+.whyus-title h4{
+    width: 32vw;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.whyus-cards{
+    display: flex;
+    margin: 2vw 15vw;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,25 @@
+.why-card{
+    width: 19vw;
+    height: 196px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    border: 3px solid transparent;
+    /* border-image: linear-gradient(to right, green, lightgreen); */
+    margin: 25px 20px;
+}
+
+.why-card img{
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    margin: 1vh auto;
+}
+
+.why-card h2{
+    margin: 5px 0px;
+}
+
+.why-card p{
+    font-size: 14px;
+    margin: 10px 10px;
+}

@@ -1,0 +1,7 @@
+.categories-detail{
+    display: flex;
+    gap:0;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width:none;
+}

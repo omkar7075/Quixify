@@ -1,0 +1,164 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    left: 0;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+    height: 80px;
+    background-color:transparent;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    
+       box-shadow: -4.96px 2.48px 3.1px 0px rgba(0, 0, 0, 0.24);
+       backdrop-filter: blur(30px);
+}
+.navbar-logo{
+    display: inline;
+    width: 13%;
+}
+.logo{
+    width: 100%;   
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.navbar-items{
+    flex-grow: 0.9;    
+}
+.active{
+    border-bottom: 3px solid #11d8f6;
+    transition: border-bottom 5s ease-in;
+}
+
+.navbarul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.navbarli{
+   list-style: none; 
+}
+
+.navbarli>a{
+    padding: 10px 20px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    z-index: 0;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.navbarli>a:hover{
+    font-size: 22px;
+    /* color: #11d8f6; */
+    color:#116df6;
+    background-color:azure;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+
+}
+
+.rightnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notofication{
+    width: 25px;
+    height: 35px;
+    cursor: pointer;
+    margin: 0rem 3rem;
+}
+
+.rightnavbarul{
+    list-style: none;
+    width: 100px;
+}
+
+.rightnavbarli>a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+/* .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:transparent;
+    padding: 15px 1.5rem;
+}
+.logo{
+    width:200px;
+    height:65px;
+    cursor: pointer;
+}
+
+.navbarul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbarli{
+    display: inline-block;
+    margin: 1rem 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100px;
+}
+
+.navbarli:hover{
+    background-color: rgb(136, 211, 223);
+    border-radius: 10px;   
+}
+
+.rightnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.rightnavbarul{
+    flex: 1;
+    list-style: none;
+    width: 300px;
+}
+
+
+.righrnavbarli{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 15rem;
+    text-align: right;
+}
+.notofication{
+     width: 20px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1rem 0rem;
+    flex: 1;
+}
+/* 
+.toggle-icon{
+    flex: 1;
+    width: 20px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1rem 0rem;
+    
+}  */

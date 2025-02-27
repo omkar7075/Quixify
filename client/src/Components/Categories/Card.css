@@ -1,0 +1,32 @@
+.card{
+    width: 207.25px;
+    height: 240.56px;
+    margin: 10px 30px;
+    /* background:linear-gradient(215deg,#F9DB9B ,#FFFFFF); */
+    border-radius: 18.5px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 117.69px;
+    height: 117.69px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.text{
+    font-size:large;
+    font-weight: bold;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 15px;
+    /* vertical-align: middle; */
+}
+

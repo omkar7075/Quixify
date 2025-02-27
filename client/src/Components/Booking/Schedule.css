@@ -1,0 +1,64 @@
+.schedule-form {
+  /* max-width: 600px; */
+  width: 60%;
+  margin: 6% auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dates, .times {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.date-button, .time-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+.date-button.selected, .time-button.selected {
+  background-color: #00aaff;
+  color: white;
+}
+
+.date-button:hover, .time-button:hover {
+  background-color: #e6e6ff;
+}
+
+.schedule-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.schedule-previous-btn, .schedule-next-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.schedule-previous-btn {
+  margin-right: 20px;
+  background-color: #f0f0f0;
+}
+
+.schedule-next-btn {
+  background-color: #00aaff;
+  color: white;
+}
+
+.schedule-previous-btn:hover, .schedule-next-btn:hover {
+  opacity: 0.9;
+}
