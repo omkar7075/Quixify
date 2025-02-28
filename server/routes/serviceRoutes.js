@@ -12,7 +12,7 @@ const {
     getProviderById, // ✅ Added this function
 } = require('../controllers/serviceController');
 //const { protect } = require("../middlewares/authMiddleware");
-const { auth } = require("../middleware/auth");
+const { auth } = require("../middlewares/auth");
 const router = express.Router();
 
 router.get('/providers/nearby', getNearbyProviders);

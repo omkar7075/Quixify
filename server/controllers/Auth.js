@@ -91,3 +91,36 @@ exports.login = async (req, res) => {
         res.status(500).json({ success: false, message: "Server error, please try again" });
     }
 };
+
+exports.signupmobile = async (req, res) => {
+    try {
+        const { phone } = req.body;
+
+        if (!phone) {
+            return res.status(400).json({ success: false, message: "Phone number is required" });
+        }
+
+        // Check if user already exists
+        const existingUser = await User.findOne({ phone });
+        if (existingUser) {
+            return res.status(400).json({ success: false, message: "User already exists, please login." });
+        }
+
+        // Generate OTP (Example: 6-digit random OTP)
+        const otp = Math.floor(100000 + Math.random() * 900000);
+
+        // Store OTP in the database (for verification later)
+        // You can use a separate OTP collection or a temporary field in the User model
+        // (For now, assume we're storing OTP in-memory)
+
+        res.status(200).json({
+            success: true,
+            message: "OTP sent successfully",
+            otp: otp, // Ideally, send this via SMS instead of returning in response
+        });
+
+    } catch (error) {
+        console.error("Signup Mobile Error:", error);
+        res.status(500).json({ success: false, message: "Signup via mobile failed, please try again" });
+    }
+};
