@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Popular from '../PopularSellers/Popular';
 import Notifications from '../Notifications/Notifications';
-import Heatmap from '../Heatmap/Heatmap';
+//import Heatmap from '../Heatmap/Heatmap';
 import FareCalculator from '../FareCalculator/FareCalculator';
 import ProviderList from '../ProviderList/ProviderList';
 import ServiceLog from '../ServiceLog/ServiceLog';
@@ -103,8 +103,8 @@ function Serviceprovider() {
           address={address}
         />
 
-        {/* Heatmap Feature */}
-        <Heatmap />
+        {/* Heatmap Feature 
+        <Heatmap />*/}
 
         {/* Dynamic Fare Calculation */}
         <FareCalculator />
