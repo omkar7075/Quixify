@@ -1,19 +1,41 @@
-.header {
+.service-provider-container {
   padding: 20px;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
-  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.breadcrumb a {
-  color: white;
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb-link {
+  color: #000;
   text-decoration: none;
-  margin: 0 5px;
 }
 
-.notifications {
-  background-color: #d4edda;
-  color: #155724;
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-current {
+  font-weight: bold;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.notifications-container {
+  background-color: #e6ffe6;
+  border-left: 4px solid #4CAF50;
   padding: 10px;
-  border-left: 5px solid #28a745;
-  margin: 10px 0;
+  margin-bottom: 20px;
+}
+
+.notification-message {
+  color: #4CAF50;
+  margin: 5px 0;
 }

@@ -1,0 +1,20 @@
+.fare-calculator {
+    margin-bottom: 20px;
+  }
+  
+  .fare-calculator h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .fare-calculator button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fare-calculator button:hover {
+    background-color: #45a049;
+  }

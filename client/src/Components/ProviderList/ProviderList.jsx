@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import './ProviderList.css';
 const ProviderList = () => {
   const [providers, setProviders] = useState([]);
 
@@ -14,7 +14,7 @@ const ProviderList = () => {
   }, []);
 
   return (
-    <div>
+    <div className="provider-list">
       <h2>Top Rated Providers</h2>
       <ul>
         {providers.map((provider) => (

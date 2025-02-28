@@ -11,7 +11,7 @@ const {
     respondToNotification,
     getProviderById, // ✅ Added this function
 } = require('../controllers/serviceController');
-//const { protect } = require("../middlewares/authMiddleware");
+
 const { auth } = require("../middlewares/auth");
 const router = express.Router();
 

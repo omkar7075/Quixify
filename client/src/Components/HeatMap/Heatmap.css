@@ -1,5 +1,8 @@
-.heatmap {
-    height: 500px;
-    width: 100%;
-  }
-  
+.heatmap-container {
+  margin-bottom: 20px;
+}
+
+.heatmap-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

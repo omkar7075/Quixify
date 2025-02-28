@@ -1,18 +1,28 @@
-.complaint-container {
-    margin: 20px;
-  }
-  
-  textarea {
-    width: 100%;
-    height: 80px;
-    padding: 10px;
-  }
-  
-  button {
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
+.complaint-form {
+  margin-bottom: 20px;
+}
+
+.complaint-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.complaint-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.complaint-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.complaint-form button:hover {
+  background-color: #45a049;
+}

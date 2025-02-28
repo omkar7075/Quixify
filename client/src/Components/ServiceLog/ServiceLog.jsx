@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import './ServiceLog.css';
 const ServiceLog = ({ providerId, serviceId }) => {
   const [status, setStatus] = useState('');
 
@@ -13,8 +13,14 @@ const ServiceLog = ({ providerId, serviceId }) => {
   };
 
   return (
-    <div>
-      <input type="text" value={status} onChange={(e) => setStatus(e.target.value)} />
+    <div className="service-log">
+      <h2>Service Log</h2>
+      <input
+        type="text"
+        value={status}
+        onChange={(e) => setStatus(e.target.value)}
+        placeholder="Enter status"
+      />
       <button onClick={updateLog}>Update Log</button>
     </div>
   );

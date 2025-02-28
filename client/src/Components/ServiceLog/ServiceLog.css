@@ -1,0 +1,27 @@
+.service-log {
+    margin-bottom: 20px;
+  }
+  
+  .service-log h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-log input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .service-log button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .service-log button:hover {
+    background-color: #45a049;
+  }
